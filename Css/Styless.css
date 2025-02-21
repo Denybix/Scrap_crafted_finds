@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 10;
+    position: relative;
+    background: #bfc2c2;
+}
+
+root
+{
+    --navbar-height: 59px;
+}
+
+#navbar
+{
+    background-color: rgb(248, 157, 82);
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px #333;
+    justify-content: space-between;
+}
+
+#navbar ul
+{
+    display: flex;
+}
+
+#right-side li, #left-side li
+{
+    display: flex;
+    font-family: 'Bree Serif', serif;
+}
+
+#right-side li a, #left-side li a
+{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #333;
+    padding: 3px 20px;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+#navbar::before
+{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#right-side li a:hover, #left-side li a:hover
+{
+    color: rgb(255, 255, 0);
+    background-color: blue;
+}
+
+#home::before
+{
+    content: "";
+    position: absolute;
+    background: url('../images1/bg.jpg') no-repeat center/cover;
+    height: 1500px;;
+    width: 1905px;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home
+{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#links
+{
+    margin: 34px;
+    display: flex;
+}
+
+#links .box
+{
+    flex: 1 0 200px;
+    width: 200px;
+    height: 300px;
+    margin: 12px;
+    box-shadow: 0px 3px 8px #000;
+    border-radius: 40px;
+    transition: all 300ms ease-in-out;
+    background-color: white;
+}
+
+#links .box:hover
+{
+    background-color: #f0e8bd;
+    box-shadow: 0px 10px 40px;
+    width: 202px;
+    height: 303px;
+}
+
+#links .box a1
+{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+#links .box a1::after
+{
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+#links .box a1:hover::after
+{
+    width: 159px;
+}
+
+#links .box a1:hover
+{
+    color: rgb(255, 94, 0);
+}
+
+#links .box a2
+{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+#links .box a2::after
+{
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+#links .box a2:hover::after
+{
+    width: 181px;
+}
+
+#links .box a2:hover
+{
+    color: rgb(255, 94, 0);;
+}
+
+#links .box a3
+{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+#links .box a3::after
+{
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+#links .box a3:hover::after
+{
+    width: 180px;
+}
+
+#links .box a3:hover
+{
+    color: rgb(255, 94, 0);;
+}
+
+#links .box a4
+{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+#links .box a4::after
+{
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+#links .box a4:hover::after
+{
+    width: 223px;
+}
+
+#links .box a4:hover
+{
+    color: rgb(255, 94, 0);;
+}
+
+#links .box img
+{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+.h-primary
+{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary
+{
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+}
+
