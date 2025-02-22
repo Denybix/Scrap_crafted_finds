@@ -16,9 +16,9 @@
     <nav id="navbar">
         <ul id="left-side">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="aboutus.php">About us</a></li>
+            <li><a href="contactus.php">Contact us</a></li>
         </ul>
         <ul id="logo area">
             <img src="images1/headlogo.png">
